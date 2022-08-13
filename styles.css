@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{
+    /* position: relative; */
+}
+.container > img{
+    width: 100%;
+    height: auto;
+}
+.container > .over-img{
+    /* position: absolute;
+    top : 20rem;
+    left : 35rem; */
+    text-align: center;
+}
+.over-img{
+    height: 90vh;
+    background-image: url(back.jpeg);
+    width: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* width: 100%;
+    height: 800px;
+    background-image: url(img1.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat; */
+}
+.over-img h1{
+    color: lightyellow;
+}
+.two-buttons{
+    display: flex;
+    margin: 25px;
+    justify-content: center;
+    gap: 30px;
+}
+.btn-major{
+    padding: 10px 20px;
+    background-color: rgb(173, 173, 173);
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.btn-minor{
+    background-color: beige;
+    color: black;
+}
+.btn-minor:hover{
+    background-color: lightcyan;
+    color: black;
+}
+.nav{
+    background-color: #f5f5f5;
+    height: 50px;
+    /* position: fixed; */
+    width: 100%;
+    display : flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    display: inline-block;
+    color: lightslategray;
+    margin-left: 70px;
+}
+li:hover{
+    color: black;
+}
+button{
+    padding: 10px 20px;
+    background-color: rgb(173, 173, 173);
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+button:hover{
+    color: whitesmoke;  
+    background-color: lightslategray;
+}
+.section-2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+    /* height: 90vh; */
+    width: 100%;
+}
+.section-2 h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+.section-2 p{
+    margin-top: 20px !important;
+    text-align: center;
+    color: lightslategray !important;
+    width: 80%;
+    margin :auto;
+}
+.section-2-cards{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 30px;
+    justify-content: space-around;
+    align-items: center;
+}
+.section-2-cards div{
+    width: 300px;
+    border: 1px solid rgba(170, 208, 216, 0.963);
+    border-radius: 12px;
+}
+.section-2-cards h2{
+    text-align: center;
+}
+.section-2-cards img{
+    width: 100%;
+    border-radius: 12px 12px 0 0 ;
+}
+
+/* Section - 3 */
+
+.section-3{
+    margin-top: 70px;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(back2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.section-3 h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: lemonchiffon;
+}
+.section-3 p{
+    width: 75%;
+    text-align: center; 
+    margin-top: 20px !important;
+    color: lemonchiffon;
+    margin : auto;
+}
+.button-align{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+.button-align #button{
+    background-color: bisque;
+    padding: 10px 45px;
+}
+
+/* Section 4 */
+
+.section-4{
+    margin: 70px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.section-4 div{
+    margin-top: 30px;
+    width: 30%;
+    /* flex-basis: 30%; */
+}
+.section-4 h2{
+    margin-bottom: 20px;
+}
+.section-4 p{
+    color: lightslategrey;
+    display: inline-block;
+}
+.section-4 img{
+    width: 40px;
+    /* display: inline-block; */
+}
+/* Section 5 */
+
+.section-5{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: darkslategrey;
+    color: white;
+    height: 80vh;
+}
+.section-5 .flexbox-2{
+    margin-left: 50px;
+    text-align: left;
+}
+.section-5 p{
+    margin-top: 30px;
+    margin-right: 30px;
+}
+.section-5 img{
+    width: 600px;
+    margin-left: 50px;
+}
+.section-5 button{
+    margin-top: 20px;
+}
+
+/* Section 6 */
+
+.section-6{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+.section-6 h1{
+    text-align: center;
+}
+.section-6 input{
+    margin-top: 30px;
+    height: 30px;
+    width: 70%;
+    padding: 10px;
+    outline: none;
+}
+.section-6 button{
+    color: white;
+    padding: 18px 30px;
+    background-color: darkslategrey;
+}
+.section-6 button:hover{
+    background-color: blanchedalmond;
+    color: black;
+}
+.section-6 .socials{
+    margin-top: 100px;
+}
+.section-6 a{
+    margin-left: 30px;
+}
+footer{
+    text-align: center;
+    font-size: 20px;
+    color: lightslategrey;
+    margin-bottom: 40px;
+}
